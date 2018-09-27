@@ -1095,7 +1095,7 @@ services:
         - HUMPBACK_LISTEN_PORT=${DOCKER_HUMPBACK_LISTEN_PORT}
       volumes:
         - ./workstart/etc/localtime:/etc/localtime:ro
-        - ./docker-humpback/dbFiles:/humpback-web/dbFiles
+        - ${DATA_PATH_HOST}/docker-humpback/dbFiles:/humpback-web/dbFiles
       ports:
         - "${DOCKER_HUMPBACK_LISTEN_PORT}:${DOCKER_HUMPBACK_LISTEN_PORT}"
       networks:

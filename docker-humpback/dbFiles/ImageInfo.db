@@ -1,1 +1,0 @@
-{"Name":"base-nginx","EditUser":"admin","EditDate":1538037772866,"Description":"# 基于alpine的nginx容器镜像\n\n* $ docker tag nginx:alpine 127.0.0.1:5000/base-nginx\n* $ docker push 127.0.0.1:5000/base-nginx\n\n","_id":"npb4mrsiSY98f4z8"}

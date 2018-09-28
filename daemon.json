@@ -1,0 +1,13 @@
+{
+
+  "insecure-registries":[
+    "docker.x.net:5000"
+  ],
+  "registry-mirrors": [
+    "http://1f637783.m.daocloud.io",
+    "https://registry.docker-cn.com",
+    "https://docker.mirrors.ustc.edu.cn",
+    "https://1234abcd.mirror.aliyuncs.com"
+  ]
+
+}

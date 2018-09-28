@@ -1,3 +1,9 @@
+springdata:
+  image: goodraincloudframeworks/springdata
+  ports:
+    - 8080:8080
+  container_name: springdata
+
 kong-database:
   image: postgres:9.5
   ports:
@@ -38,9 +44,3 @@ kong-dashboard:
   ports:
     - 8081:8080
   container_name: kong-dashboard
-
-springdata:
-  image: goodraincloudframeworks/springdata
-  ports:
-    - 8080:8080
-  container_name: springdata

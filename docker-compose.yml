@@ -852,6 +852,20 @@ services:
       networks:
         - backend
 
+### GitGogs ################################################
+    gitgogs:
+      build:
+        context: ./gitgogs
+      volumes:
+        - ${DATA_PATH_HOST}/gitgogs:/data
+      networks:
+        - backend
+      ports:
+        - "10022:22"
+        - "10080:3000"
+      depends_on:
+        - mysql
+
 ### Gitlab ################################################
     gitlab:
       build:

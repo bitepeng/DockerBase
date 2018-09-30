@@ -10,7 +10,7 @@ server {
     listen 443;
     listen [::]:443;
 
-    server_name docker.quiknos.net 120.79.117.198;
+    server_name docker.x.net;
 
     #root /var/www/public;
     #index index.html index.htm;

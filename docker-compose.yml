@@ -858,6 +858,7 @@ services:
         context: ./gitgogs
       volumes:
         - ${DATA_PATH_HOST}/gitgogs:/data
+        - ${DATA_PATH_HOST}/gitgogs-web:/app/gogs/templates
       networks:
         - backend
       ports:

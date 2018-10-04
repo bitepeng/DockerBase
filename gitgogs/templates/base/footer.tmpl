@@ -18,11 +18,6 @@
 				<div class="ui language bottom floating slide up dropdown link item">
 					<i class="world icon"></i>
 					<div class="text">{{.LangName}}</div>
-					<div class="menu">
-						{{range .AllLangs}}
-							<a class="item {{if eq $.Lang .Lang}}active selected{{end}}" href="{{if eq $.Lang .Lang}}#{{else}}{{$.Link}}?lang={{.Lang}}{{end}}">{{.Name}}</a>
-						{{end}}
-					</div>
 				</div>
 				<a href="/assets/librejs/librejs.html" style="display:none" data-jslicense="1">Javascript Licenses</a>
 				<a target="_blank" rel="noopener noreferrer" href="https://gogs.io">{{.i18n.Tr "website"}}</a>
